@@ -31,7 +31,11 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define NO_MOVEMENT 0
+#define FORWARD 1
+#define LEFT 2
+#define RIGHT 3
+#define RAPPORT_CYCLIQUE 32768 // = 65536/2 aka rc = 50%
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -50,8 +54,8 @@ UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
 volatile uint8_t running;
-
-unsigned char
+volatile uint8_t movement_type;
+// 0 = rien, 1 = tout droit, 1 = gauche, 2 = droite
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -80,6 +84,7 @@ int main(void)
 
   /* USER CODE BEGIN 1 */
 	running = 0;
+	movement_type = NO_MOVEMENT;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -106,6 +111,10 @@ int main(void)
   MX_TIM6_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_4);
+
+
 
   /* USER CODE END 2 */
 
@@ -113,13 +122,32 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  // robot movement
+	  if(movement_type == NO_MOVEMENT){
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 0);
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, 0);
+	  }
+	  else if(movement_type == FORWARD){
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, RAPPORT_CYCLIQUE);
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, RAPPORT_CYCLIQUE);
+	  }
+	  else if(movement_type == LEFT){
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, RAPPORT_CYCLIQUE);
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, RAPPORT_CYCLIQUE);
+	  }
+	  else if(movement_type == RIGHT){ //RIGHT
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, RAPPORT_CYCLIQUE);
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, RAPPORT_CYCLIQUE);
+	  }
 
+	  //is the robot running
 	  if (running) {
 		  HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, SET);
-
+		  movement_type = FORWARD;
 	  }
 	  else{
 		  HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, RESET);
+		  movement_type = NO_MOVEMENT;
 	  }
     /* USER CODE END WHILE */
 
