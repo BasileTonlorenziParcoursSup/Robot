@@ -1088,3 +1088,281 @@
 2024-05-23 08:54:46,376 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
 2024-05-23 08:54:46,379 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
 2024-05-23 09:10:35,565 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-23 09:48:07,210 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x145,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-23 10:36:29,043 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 338494192 Bytes (890241024)
+2024-05-23 10:36:30,288 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 368902896 Bytes (890241024)
+2024-05-23 10:36:33,282 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 457018368 Bytes (890241024)
+2024-05-23 10:36:33,430 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7L4
+2024-05-23 10:36:33,430 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2024-05-23 10:36:33,430 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-23 10:36:33,431 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-05-23 10:36:33,431 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-23 10:36:33,431 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-23 10:36:33,431 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:36:33,431 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:36:33,431 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-23 10:36:33,432 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-23 10:36:33,528 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp_save
+2024-05-23 10:36:33,659 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp
+2024-05-23 10:36:33,702 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp_save
+2024-05-23 10:36:33,859 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp
+2024-05-23 10:36:34,273 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c_save
+2024-05-23 10:36:34,527 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c
+2024-05-23 10:36:34,551 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h_save
+2024-05-23 10:36:34,663 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h
+2024-05-23 10:36:34,711 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c_save
+2024-05-23 10:36:34,983 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c
+2024-05-23 10:36:35,008 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp_save
+2024-05-23 10:36:35,141 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp
+2024-05-23 10:36:35,184 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-05-23 10:36:35,368 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h
+2024-05-23 10:36:35,427 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-05-23 10:36:35,428 [WARN] CodeGenerator:3951 - IP not found : null
+2024-05-23 10:36:35,460 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h_save
+2024-05-23 10:36:35,644 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h
+2024-05-23 10:36:35,674 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c_save
+2024-05-23 10:36:35,872 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c
+2024-05-23 10:36:36,231 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 169mS.
+2024-05-23 10:36:36,235 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-23 10:36:36,305 [INFO] ConfigFileManager:1503 - The Die is : DIE415
+2024-05-23 10:36:37,260 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1025mS.
+2024-05-23 10:36:37,261 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-05-23 10:36:37,264 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 10:37:52,587 [INFO] Mcu:1677 - InternalPropertyChange: try BijectiveRequest:PWM Generation CH3
+2024-05-23 10:37:59,070 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 555223040 Bytes (948961280)
+2024-05-23 10:38:19,074 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 454557824 Bytes (948961280)
+2024-05-23 10:38:20,178 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 484440192 Bytes (948961280)
+2024-05-23 10:38:24,530 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 515384464 Bytes (948961280)
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7L4
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:38:24,684 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-23 10:38:24,685 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-23 10:38:24,819 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp_save
+2024-05-23 10:38:24,944 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp
+2024-05-23 10:38:24,995 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp_save
+2024-05-23 10:38:25,167 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp
+2024-05-23 10:38:25,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c_save
+2024-05-23 10:38:25,643 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c
+2024-05-23 10:38:25,651 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h_save
+2024-05-23 10:38:25,722 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h
+2024-05-23 10:38:25,756 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c_save
+2024-05-23 10:38:25,999 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c
+2024-05-23 10:38:26,025 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp_save
+2024-05-23 10:38:26,121 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp
+2024-05-23 10:38:26,163 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-05-23 10:38:26,390 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h
+2024-05-23 10:38:26,423 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-05-23 10:38:26,423 [WARN] CodeGenerator:3951 - IP not found : null
+2024-05-23 10:38:26,462 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h_save
+2024-05-23 10:38:26,690 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h
+2024-05-23 10:38:26,729 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c_save
+2024-05-23 10:38:26,923 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c
+2024-05-23 10:38:27,313 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 194mS.
+2024-05-23 10:38:27,318 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-23 10:38:27,397 [INFO] ConfigFileManager:1503 - The Die is : DIE415
+2024-05-23 10:38:28,089 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 771mS.
+2024-05-23 10:38:28,091 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-05-23 10:38:28,094 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 10:40:22,288 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 832205264 Bytes (948961280)
+2024-05-23 10:40:23,192 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 321686720 Bytes (948961280)
+2024-05-23 10:40:25,893 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 352655120 Bytes (948961280)
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7L4
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:40:26,048 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:40:26,049 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-23 10:40:26,050 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-23 10:40:26,151 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp_save
+2024-05-23 10:40:26,279 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp
+2024-05-23 10:40:26,326 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp_save
+2024-05-23 10:40:26,447 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp
+2024-05-23 10:40:26,777 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c_save
+2024-05-23 10:40:26,913 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c
+2024-05-23 10:40:26,920 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h_save
+2024-05-23 10:40:26,980 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h
+2024-05-23 10:40:27,019 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c_save
+2024-05-23 10:40:27,152 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c
+2024-05-23 10:40:27,157 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp_save
+2024-05-23 10:40:27,218 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp
+2024-05-23 10:40:27,256 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-05-23 10:40:27,449 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h
+2024-05-23 10:40:27,492 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-05-23 10:40:27,492 [WARN] CodeGenerator:3951 - IP not found : null
+2024-05-23 10:40:27,514 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h_save
+2024-05-23 10:40:27,762 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h
+2024-05-23 10:40:27,795 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c_save
+2024-05-23 10:40:27,982 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c
+2024-05-23 10:40:28,359 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 184mS.
+2024-05-23 10:40:28,363 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-23 10:40:28,432 [INFO] ConfigFileManager:1503 - The Die is : DIE415
+2024-05-23 10:40:29,130 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 767mS.
+2024-05-23 10:40:29,132 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 10:40:29,136 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 10:40:50,384 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x95,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-23 10:41:00,125 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 525347840 Bytes (948961280)
+2024-05-23 10:41:01,082 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 549465088 Bytes (948961280)
+2024-05-23 10:41:02,373 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 578825216 Bytes (948961280)
+2024-05-23 10:41:02,538 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7L4
+2024-05-23 10:41:02,538 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2024-05-23 10:41:02,538 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-23 10:41:02,538 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-05-23 10:41:02,538 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-23 10:41:02,539 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-23 10:41:02,539 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:41:02,539 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:41:02,539 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-23 10:41:02,540 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-23 10:41:02,653 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp_save
+2024-05-23 10:41:02,766 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp
+2024-05-23 10:41:02,810 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp_save
+2024-05-23 10:41:02,954 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp
+2024-05-23 10:41:03,285 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c_save
+2024-05-23 10:41:03,404 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c
+2024-05-23 10:41:03,412 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h_save
+2024-05-23 10:41:03,509 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h
+2024-05-23 10:41:03,548 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c_save
+2024-05-23 10:41:03,767 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c
+2024-05-23 10:41:03,798 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp_save
+2024-05-23 10:41:03,889 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp
+2024-05-23 10:41:03,927 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-05-23 10:41:04,127 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h
+2024-05-23 10:41:04,174 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-05-23 10:41:04,176 [WARN] CodeGenerator:3951 - IP not found : null
+2024-05-23 10:41:04,207 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h_save
+2024-05-23 10:41:04,418 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h
+2024-05-23 10:41:04,456 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c_save
+2024-05-23 10:41:04,652 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c
+2024-05-23 10:41:05,016 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 180mS.
+2024-05-23 10:41:05,020 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-23 10:41:05,097 [INFO] ConfigFileManager:1503 - The Die is : DIE415
+2024-05-23 10:41:05,825 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 806mS.
+2024-05-23 10:41:05,826 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-05-23 10:41:05,829 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 10:41:34,386 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 409066744 Bytes (948961280)
+2024-05-23 10:41:35,363 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 433706232 Bytes (948961280)
+2024-05-23 10:41:36,597 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 529706072 Bytes (948961280)
+2024-05-23 10:41:36,727 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7L4
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:41:36,728 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-23 10:41:36,729 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-23 10:41:36,816 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp_save
+2024-05-23 10:41:36,957 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp
+2024-05-23 10:41:36,998 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp_save
+2024-05-23 10:41:37,173 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp
+2024-05-23 10:41:37,525 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c_save
+2024-05-23 10:41:37,667 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c
+2024-05-23 10:41:37,674 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h_save
+2024-05-23 10:41:37,743 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h
+2024-05-23 10:41:37,780 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c_save
+2024-05-23 10:41:37,965 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c
+2024-05-23 10:41:37,981 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp_save
+2024-05-23 10:41:38,049 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp
+2024-05-23 10:41:38,094 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-05-23 10:41:38,301 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h
+2024-05-23 10:41:38,360 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-05-23 10:41:38,361 [WARN] CodeGenerator:3951 - IP not found : null
+2024-05-23 10:41:38,399 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h_save
+2024-05-23 10:41:38,588 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h
+2024-05-23 10:41:38,622 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c_save
+2024-05-23 10:41:38,802 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c
+2024-05-23 10:41:39,148 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 182mS.
+2024-05-23 10:41:39,151 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-23 10:41:39,206 [INFO] ConfigFileManager:1503 - The Die is : DIE415
+2024-05-23 10:41:39,859 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 708mS.
+2024-05-23 10:41:39,860 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 10:41:39,863 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 10:49:33,529 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-23 10:50:28,251 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 638543592 Bytes (948961280)
+2024-05-23 10:50:29,398 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 667903720 Bytes (948961280)
+2024-05-23 10:50:34,058 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 705156416 Bytes (948961280)
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7L4
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:50:34,194 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 10:50:34,195 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-23 10:50:34,196 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-23 10:50:34,290 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp_save
+2024-05-23 10:50:34,428 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp
+2024-05-23 10:50:34,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp_save
+2024-05-23 10:50:34,590 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp
+2024-05-23 10:50:34,918 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c_save
+2024-05-23 10:50:35,053 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c
+2024-05-23 10:50:35,081 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h_save
+2024-05-23 10:50:35,183 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h
+2024-05-23 10:50:35,225 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c_save
+2024-05-23 10:50:35,458 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c
+2024-05-23 10:50:35,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp_save
+2024-05-23 10:50:35,556 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp
+2024-05-23 10:50:35,597 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-05-23 10:50:35,783 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h
+2024-05-23 10:50:35,824 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-05-23 10:50:35,825 [WARN] CodeGenerator:3951 - IP not found : null
+2024-05-23 10:50:35,862 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h_save
+2024-05-23 10:50:36,076 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h
+2024-05-23 10:50:36,110 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c_save
+2024-05-23 10:50:36,308 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c
+2024-05-23 10:50:36,658 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 191mS.
+2024-05-23 10:50:36,663 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-23 10:50:36,732 [INFO] ConfigFileManager:1503 - The Die is : DIE415
+2024-05-23 10:50:37,344 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 681mS.
+2024-05-23 10:50:37,345 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-05-23 10:50:37,348 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-05-23 11:03:11,905 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 508470784 Bytes (948961280)
+2024-05-23 11:03:13,098 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 537830912 Bytes (948961280)
+2024-05-23 11:03:14,412 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 575078080 Bytes (948961280)
+2024-05-23 11:03:14,556 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM6_7L4
+2024-05-23 11:03:14,557 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8L4
+2024-05-23 11:03:14,557 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-23 11:03:14,558 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2024-05-23 11:03:14,558 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-23 11:03:14,558 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-23 11:03:14,558 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 11:03:14,558 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-23 11:03:14,559 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-23 11:03:14,560 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-23 11:03:14,654 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp_save
+2024-05-23 11:03:14,803 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\license.tmp
+2024-05-23 11:03:14,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp_save
+2024-05-23 11:03:15,039 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\gpio.tmp
+2024-05-23 11:03:15,381 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c_save
+2024-05-23 11:03:15,537 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_it.c
+2024-05-23 11:03:15,544 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h_save
+2024-05-23 11:03:15,621 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_it.h
+2024-05-23 11:03:15,649 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c_save
+2024-05-23 11:03:15,901 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\stm32l4xx_hal_msp.c
+2024-05-23 11:03:15,927 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp_save
+2024-05-23 11:03:15,992 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\MXTmpFiles\system.tmp
+2024-05-23 11:03:16,020 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-05-23 11:03:16,174 [INFO] CodeEngine:335 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\stm32l4xx_hal_conf.h
+2024-05-23 11:03:16,229 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-05-23 11:03:16,230 [WARN] CodeGenerator:3951 - IP not found : null
+2024-05-23 11:03:16,266 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h_save
+2024-05-23 11:03:16,431 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Inc\main.h
+2024-05-23 11:03:16,459 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c_save
+2024-05-23 11:03:16,659 [INFO] CodeEngine:279 - Generated code: C:\Users\user\Desktop\Cours\Semestre6\bottom\Robot\Roboto\Core\Src\main.c
+2024-05-23 11:03:16,985 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 182mS.
+2024-05-23 11:03:16,989 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-23 11:03:17,065 [INFO] ConfigFileManager:1503 - The Die is : DIE415
+2024-05-23 11:03:17,768 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 779mS.
+2024-05-23 11:03:17,769 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-05-23 11:03:17,772 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
